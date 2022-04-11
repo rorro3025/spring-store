@@ -1,0 +1,73 @@
+.container{
+    width:90%;
+    margin:0 auto;
+    border: aqua;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.actions{
+    display:flex;
+    justify-content:space-around;
+}
+.btn{
+    width: 100px;
+    padding:3px 5px;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+
+.danger{
+    background-color: #cb4743;
+}
+
+.danger:hover{
+    background-color: #81211d;
+}
+
+.info{
+   background-color: #487fc9;
+}
+
+.info:hover{
+    background-color: #174280;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+form label{
+    margin:8px 4px;
+}
+
+/* visibility: hidden;*/
+.message{
+    width: 90%;
+    border: darkred solid 2px;
+    border-radius: 10px;
+    background-color: #e1736f;
+    color:darkred;
+    height: 100px;
+    margin-top: 30px;
+    padding: 10px 5%;
+}
+
+.noVisible{
+    visibility: hidden;
+}
